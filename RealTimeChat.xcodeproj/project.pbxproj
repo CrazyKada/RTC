@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0645E3C21E06E72A0027A250 /* NewMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0645E3C11E06E72A0027A250 /* NewMessageController.swift */; };
+		0645E3C51E06F1A30027A250 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0645E3C41E06F1A30027A250 /* User.swift */; };
+		0645E3C71E0712DF0027A250 /* LoginController+handlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0645E3C61E0712DF0027A250 /* LoginController+handlers.swift */; };
+		066036231E031DEF00A3820C /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066036221E031DEF00A3820C /* LoginController.swift */; };
+		067B9D661E084521001EDEF6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067B9D651E084521001EDEF6 /* Extensions.swift */; };
 		06DD6DF21E0315840016A4DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD6DF11E0315840016A4DE /* AppDelegate.swift */; };
-		06DD6DF41E0315840016A4DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD6DF31E0315840016A4DE /* ViewController.swift */; };
+		06DD6DF41E0315840016A4DE /* MessagesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD6DF31E0315840016A4DE /* MessagesController.swift */; };
 		06DD6DF71E0315840016A4DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DD6DF51E0315840016A4DE /* Main.storyboard */; };
 		06DD6DF91E0315840016A4DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DD6DF81E0315840016A4DE /* Assets.xcassets */; };
 		06DD6DFC1E0315840016A4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06DD6DFA1E0315840016A4DE /* LaunchScreen.storyboard */; };
 		06DD6E071E0315840016A4DE /* RealTimeChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD6E061E0315840016A4DE /* RealTimeChatTests.swift */; };
 		06DD6E121E0315840016A4DE /* RealTimeChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DD6E111E0315840016A4DE /* RealTimeChatUITests.swift */; };
+		06E997671E04A25D000F68D6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 06E997661E04A25D000F68D6 /* GoogleService-Info.plist */; };
+		0A527D5D64E43263E8C4C449 /* Pods_RealTimeChatTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0802533B160A5D13810F092 /* Pods_RealTimeChatTests.framework */; };
+		0C83FAEC8C1A5610BE548B17 /* Pods_RealTimeChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E9ED91ABC8886D8D5FBACD /* Pods_RealTimeChatUITests.framework */; };
+		581B20AA9D1882C56E9A234C /* Pods_RealTimeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E80E412A94555C5F42287923 /* Pods_RealTimeChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0645E3C11E06E72A0027A250 /* NewMessageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewMessageController.swift; sourceTree = "<group>"; };
+		0645E3C41E06F1A30027A250 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0645E3C61E0712DF0027A250 /* LoginController+handlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LoginController+handlers.swift"; sourceTree = "<group>"; };
+		066036221E031DEF00A3820C /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		067B9D651E084521001EDEF6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		06DD6DEE1E0315840016A4DE /* RealTimeChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DD6DF11E0315840016A4DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		06DD6DF31E0315840016A4DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06DD6DF31E0315840016A4DE /* MessagesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesController.swift; sourceTree = "<group>"; };
 		06DD6DF61E0315840016A4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		06DD6DF81E0315840016A4DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DD6DFB1E0315840016A4DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,17 @@
 		06DD6E0D1E0315840016A4DE /* RealTimeChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealTimeChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06DD6E111E0315840016A4DE /* RealTimeChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealTimeChatUITests.swift; sourceTree = "<group>"; };
 		06DD6E131E0315840016A4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06DD6E1F1E0316120016A4DE /* RealTimeChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RealTimeChat.entitlements; sourceTree = "<group>"; };
+		06E997661E04A25D000F68D6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D169A1152306F0FE10BCD3B /* Pods-RealTimeChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatTests/Pods-RealTimeChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30E9ED91ABC8886D8D5FBACD /* Pods_RealTimeChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChatUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7A0521836B683FBF64FF7E /* Pods-RealTimeChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChat/Pods-RealTimeChat.release.xcconfig"; sourceTree = "<group>"; };
+		6FECB4966633715B9D72207B /* Pods-RealTimeChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChat/Pods-RealTimeChat.debug.xcconfig"; sourceTree = "<group>"; };
+		725C7FE81A3FD1D6658B46E2 /* Pods-RealTimeChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatUITests/Pods-RealTimeChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0802533B160A5D13810F092 /* Pods_RealTimeChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChatTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D660547CEC9727F2081FECB2 /* Pods-RealTimeChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatTests/Pods-RealTimeChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA6CD6B9C292CE81830C11A7 /* Pods-RealTimeChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeChatUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeChatUITests/Pods-RealTimeChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E80E412A94555C5F42287923 /* Pods_RealTimeChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealTimeChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				581B20AA9D1882C56E9A234C /* Pods_RealTimeChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A527D5D64E43263E8C4C449 /* Pods_RealTimeChatTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +95,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C83FAEC8C1A5610BE548B17 /* Pods_RealTimeChatUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0645E3C31E06F1710027A250 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0645E3C41E06F1A30027A250 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		066036211E031DBC00A3820C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				066036221E031DEF00A3820C /* LoginController.swift */,
+				06DD6DF31E0315840016A4DE /* MessagesController.swift */,
+				0645E3C11E06E72A0027A250 /* NewMessageController.swift */,
+				0645E3C61E0712DF0027A250 /* LoginController+handlers.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		067B9D641E0844F1001EDEF6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				067B9D651E084521001EDEF6 /* Extensions.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 		06DD6DE51E0315840016A4DE = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +136,8 @@
 				06DD6E051E0315840016A4DE /* RealTimeChatTests */,
 				06DD6E101E0315840016A4DE /* RealTimeChatUITests */,
 				06DD6DEF1E0315840016A4DE /* Products */,
+				1A66BA3612C581B291E5ECE6 /* Pods */,
+				355E9E5203BBCEA32657A1B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +154,16 @@
 		06DD6DF01E0315840016A4DE /* RealTimeChat */ = {
 			isa = PBXGroup;
 			children = (
+				067B9D641E0844F1001EDEF6 /* Helpers */,
+				0645E3C31E06F1710027A250 /* Model */,
+				066036211E031DBC00A3820C /* Controller */,
+				06DD6E1F1E0316120016A4DE /* RealTimeChat.entitlements */,
 				06DD6DF11E0315840016A4DE /* AppDelegate.swift */,
-				06DD6DF31E0315840016A4DE /* ViewController.swift */,
 				06DD6DF51E0315840016A4DE /* Main.storyboard */,
 				06DD6DF81E0315840016A4DE /* Assets.xcassets */,
 				06DD6DFA1E0315840016A4DE /* LaunchScreen.storyboard */,
 				06DD6DFD1E0315840016A4DE /* Info.plist */,
+				06E997661E04A25D000F68D6 /* GoogleService-Info.plist */,
 			);
 			path = RealTimeChat;
 			sourceTree = "<group>";
@@ -125,6 +186,29 @@
 			path = RealTimeChatUITests;
 			sourceTree = "<group>";
 		};
+		1A66BA3612C581B291E5ECE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FECB4966633715B9D72207B /* Pods-RealTimeChat.debug.xcconfig */,
+				3C7A0521836B683FBF64FF7E /* Pods-RealTimeChat.release.xcconfig */,
+				1D169A1152306F0FE10BCD3B /* Pods-RealTimeChatTests.debug.xcconfig */,
+				D660547CEC9727F2081FECB2 /* Pods-RealTimeChatTests.release.xcconfig */,
+				725C7FE81A3FD1D6658B46E2 /* Pods-RealTimeChatUITests.debug.xcconfig */,
+				DA6CD6B9C292CE81830C11A7 /* Pods-RealTimeChatUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		355E9E5203BBCEA32657A1B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E80E412A94555C5F42287923 /* Pods_RealTimeChat.framework */,
+				C0802533B160A5D13810F092 /* Pods_RealTimeChatTests.framework */,
+				30E9ED91ABC8886D8D5FBACD /* Pods_RealTimeChatUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06DD6E161E0315850016A4DE /* Build configuration list for PBXNativeTarget "RealTimeChat" */;
 			buildPhases = (
+				FC3EABE5EADF49618E1BC0E4 /* [CP] Check Pods Manifest.lock */,
 				06DD6DEA1E0315840016A4DE /* Sources */,
 				06DD6DEB1E0315840016A4DE /* Frameworks */,
 				06DD6DEC1E0315840016A4DE /* Resources */,
+				23DF61ACA670FC42A2476748 /* [CP] Embed Pods Frameworks */,
+				5E26905550B7B4EF26362CBF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06DD6E191E0315850016A4DE /* Build configuration list for PBXNativeTarget "RealTimeChatTests" */;
 			buildPhases = (
+				CD8E7B5D86E2293C103F0DBF /* [CP] Check Pods Manifest.lock */,
 				06DD6DFE1E0315840016A4DE /* Sources */,
 				06DD6DFF1E0315840016A4DE /* Frameworks */,
 				06DD6E001E0315840016A4DE /* Resources */,
+				E14B5DDF337DBF9F9EA60753 /* [CP] Embed Pods Frameworks */,
+				8F4B9F1E95723EFEF251FF2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06DD6E1C1E0315850016A4DE /* Build configuration list for PBXNativeTarget "RealTimeChatUITests" */;
 			buildPhases = (
+				A3339243051A46D5D5FF2687 /* [CP] Check Pods Manifest.lock */,
 				06DD6E091E0315840016A4DE /* Sources */,
 				06DD6E0A1E0315840016A4DE /* Frameworks */,
 				06DD6E0B1E0315840016A4DE /* Resources */,
+				5C4E34A25F14B8EDA1F72746 /* [CP] Embed Pods Frameworks */,
+				731DD3315620ABCEC4DAA951 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +286,13 @@
 				TargetAttributes = {
 					06DD6DED1E0315840016A4DE = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = A292A9SGZ3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					06DD6E011E0315840016A4DE = {
 						CreatedOnToolsVersion = 8.1;
@@ -233,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06DD6DFC1E0315840016A4DE /* LaunchScreen.storyboard in Resources */,
+				06E997671E04A25D000F68D6 /* GoogleService-Info.plist in Resources */,
 				06DD6DF91E0315840016A4DE /* Assets.xcassets in Resources */,
 				06DD6DF71E0315840016A4DE /* Main.storyboard in Resources */,
 			);
@@ -254,13 +354,156 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23DF61ACA670FC42A2476748 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChat/Pods-RealTimeChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C4E34A25F14B8EDA1F72746 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChatUITests/Pods-RealTimeChatUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E26905550B7B4EF26362CBF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChat/Pods-RealTimeChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		731DD3315620ABCEC4DAA951 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChatUITests/Pods-RealTimeChatUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F4B9F1E95723EFEF251FF2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChatTests/Pods-RealTimeChatTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3339243051A46D5D5FF2687 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8E7B5D86E2293C103F0DBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E14B5DDF337DBF9F9EA60753 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeChatTests/Pods-RealTimeChatTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC3EABE5EADF49618E1BC0E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		06DD6DEA1E0315840016A4DE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06DD6DF41E0315840016A4DE /* ViewController.swift in Sources */,
+				0645E3C21E06E72A0027A250 /* NewMessageController.swift in Sources */,
+				06DD6DF41E0315840016A4DE /* MessagesController.swift in Sources */,
+				0645E3C71E0712DF0027A250 /* LoginController+handlers.swift in Sources */,
+				066036231E031DEF00A3820C /* LoginController.swift in Sources */,
+				0645E3C51E06F1A30027A250 /* User.swift in Sources */,
 				06DD6DF21E0315840016A4DE /* AppDelegate.swift in Sources */,
+				067B9D661E084521001EDEF6 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,8 +653,11 @@
 		};
 		06DD6E171E0315850016A4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FECB4966633715B9D72207B /* Pods-RealTimeChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RealTimeChat/RealTimeChat.entitlements;
+				DEVELOPMENT_TEAM = A292A9SGZ3;
 				INFOPLIST_FILE = RealTimeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kada.RealTimeChat;
@@ -422,8 +668,11 @@
 		};
 		06DD6E181E0315850016A4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C7A0521836B683FBF64FF7E /* Pods-RealTimeChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RealTimeChat/RealTimeChat.entitlements;
+				DEVELOPMENT_TEAM = A292A9SGZ3;
 				INFOPLIST_FILE = RealTimeChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Kada.RealTimeChat;
@@ -434,6 +683,7 @@
 		};
 		06DD6E1A1E0315850016A4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D169A1152306F0FE10BCD3B /* Pods-RealTimeChatTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -448,6 +698,7 @@
 		};
 		06DD6E1B1E0315850016A4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D660547CEC9727F2081FECB2 /* Pods-RealTimeChatTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +713,7 @@
 		};
 		06DD6E1D1E0315850016A4DE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 725C7FE81A3FD1D6658B46E2 /* Pods-RealTimeChatUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RealTimeChatUITests/Info.plist;
@@ -475,6 +727,7 @@
 		};
 		06DD6E1E1E0315850016A4DE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA6CD6B9C292CE81830C11A7 /* Pods-RealTimeChatUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = RealTimeChatUITests/Info.plist;
@@ -505,6 +758,7 @@
 				06DD6E181E0315850016A4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06DD6E191E0315850016A4DE /* Build configuration list for PBXNativeTarget "RealTimeChatTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +767,7 @@
 				06DD6E1B1E0315850016A4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		06DD6E1C1E0315850016A4DE /* Build configuration list for PBXNativeTarget "RealTimeChatUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +776,7 @@
 				06DD6E1E1E0315850016A4DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
